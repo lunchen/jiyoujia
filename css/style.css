@@ -1,0 +1,207 @@
+.nav {
+  width: 1190px;
+  height: 40px;
+  margin: 10px auto;
+  background-color: #f5f5f5;
+  border: solid 1px #e8e8e8;
+}
+.nav ul {
+  float: left;
+  margin-right: 50px;
+}
+.nav ul li {
+  float: left;
+  line-height: 38px;
+  padding: 0 20px;
+  margin-right: 1px;
+}
+.nav ul li:hover {
+  background-color: #fff;
+}
+.nav ul li.current {
+  background-color: #fff;
+}
+.nav .inputNum {
+  display: inline-block;
+  width: 180px;
+  height: 40px;
+  padding-left: 6px;
+  line-height: 40px;
+  margin-right: 20px;
+}
+.nav .inputNum input {
+  width: 55px;
+  height: 23px;
+  padding: 0 5px;
+  font-size: 12px;
+  background-color: #fff;
+  border: 1px solid #dfdfdf;
+}
+.nav .inputNum .submit {
+  display: none;
+  background-color: #f82800;
+  color: #fff;
+  line-height: 20px;
+  height: 25px;
+  width: 46px;
+}
+.nav .inputNum:hover {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  margin-top: -1px;
+  padding-left: 5px;
+  box-shadow: 0 2px 2px #e7e7e7;
+}
+.nav .inputNum:hover .submit {
+  display: inline-block;
+}
+.nav .area {
+  width: 80px;
+  text-align: center;
+  padding: 0;
+  display: inline-block;
+  height: 40px;
+  padding-left: 6px;
+  line-height: 40px;
+  margin-right: 20px;
+}
+.nav .pageNum {
+  display: inline-block;
+  margin-left: 300px;
+}
+.nav .pageNum .pageToL {
+  margin-right: 6px;
+  font-family: iconfont;
+}
+.nav .pageNum .pageToL:hover {
+  color: #f40;
+  font-weight: blod;
+}
+.nav .pageNum .pageToR {
+  margin-left: 6px;
+  font-family: iconfont;
+}
+.nav .pageNum .pageToR:hover {
+  color: #f40;
+  font-weight: blod;
+}
+.item {
+  width: 1190px;
+  margin: 10px auto;
+}
+.item .product {
+  float: left;
+  position: relative;
+  width: 222px;
+  height: 380px;
+  margin: 22px 20px 0 0;
+  border: #ededed 1px solid;
+}
+.item .product:nth-of-type(5),
+.item .product:nth-of-type(10) {
+  margin-right: 0;
+}
+.item .product:hover {
+  border: #fb6934 1px solid;
+}
+.item .product .product-top {
+  height: 220px;
+  overflow-y: hidden;
+}
+.item .product .product-top:hover .product-note {
+  transform: translateY(-30px);
+}
+.item .product .product-top .product-img {
+  height: 220px;
+  width: 220px;
+}
+.item .product .product-top .product-note {
+  height: 30px;
+  width: 220px;
+  background-color: rgba(255,68,0,0.6);
+  position: absolute;
+  bottom: 128px;
+  transition: 0.4s;
+}
+.item .product .product-top .product-note span {
+  float: left;
+  width: 110px;
+  line-height: 30px;
+  text-align: center;
+}
+.item .product .product-top .product-note .notel {
+  border-right: 1px #f66d27 solid;
+  color: rgba(255,255,255,0.6);
+}
+.item .product .product-top .product-note .noter {
+  color: #fff;
+}
+.item .product .product-body {
+  width: 100%;
+  z-index: 2;
+  background-color: #fff;
+  position: absolute;
+}
+.item .product .product-body .product-price .price {
+  display: block;
+  float: left;
+  color: #f40;
+  font-weight: 700;
+  font-family: verdana, arial;
+  font-size: 18px;
+  margin: 6px 0 0 10px;
+}
+.item .product .product-body .product-price .mail {
+  display: block;
+  float: left;
+  line-height: 14px;
+  color: #fff;
+  background-color: #f40;
+  padding: 0 2px;
+  margin: 10px 0 0 4px;
+}
+.item .product .product-body .text {
+  display: block;
+  width: 210px;
+  margin: 0 auto;
+}
+.item .product .product-body .sold {
+  margin: 5px 0 0 10px;
+  font-size: 14px;
+  color: #808080;
+}
+.item .product .product-body .customer-message {
+  margin: 0px 0 0 10px;
+  font-size: 16px;
+  color: #888;
+}
+.item .product .product-body .customer-message .nameicon {
+  float: left;
+  margin-top: 7px;
+}
+.item .product .product-body .customer-message .nameicon:hover div {
+  background-color: #f40;
+}
+.item .product .product-body .customer-message .nameicon:hover a {
+  color: #f40;
+}
+.item .product .product-body .customer-message .nameicon div {
+  width: 12px;
+  height: 2px;
+  background-color: #808080;
+  margin-top: 2px;
+}
+.item .product .product-body .customer-message a {
+  text-decoration: underline;
+  margin-left: 5px;
+}
+.item .product .product-body .customer-message a:hover {
+  color: #f40;
+}
+.item .product .product-body .customer-message .customer-place {
+  float: right;
+  margin: 4px 12px 0 0;
+}
+.item .product .product-body .icon {
+  margin: 8px 0 0 10px;
+}

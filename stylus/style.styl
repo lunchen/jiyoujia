@@ -1,0 +1,169 @@
+
+.nav
+	width 1190px
+	height 40px
+	margin 10px auto
+	background-color #f5f5f5
+	border solid 1px #e8e8e8
+	ul
+		float left
+		margin-right 50px
+		li
+			float left
+			line-height 38px
+			padding 0 20px
+			margin-right 1px
+			&:hover
+				background-color white
+			&.current
+				background-color white
+	.inputNum
+		display inline-block
+		width 180px
+		height 40px
+		padding-left 6px
+		line-height 40px
+		margin-right 20px
+		input
+			width 55px
+			height 23px
+			padding 0 5px
+			font-size 12px
+			background-color white
+			border 1px solid #dfdfdf
+		.submit
+			display none
+			background-color #f82800
+			color white
+			line-height 20px
+			height 25px
+			width 46px
+		&:hover
+			background-color white
+			border 1px solid #ccc
+			margin-top -1px
+			padding-left 5px
+			box-shadow 0 2px 2px #e7e7e7
+			.submit
+				display inline-block
+	.area
+		width 80px
+		text-align center
+		padding 0
+		display inline-block
+		height 40px
+		padding-left 6px
+		line-height 40px
+		margin-right 20px
+	.pageNum
+		display inline-block
+		margin-left 300px
+		.pageToL
+			margin-right 6px
+			font-family iconfont
+			&:hover
+				color rgb(255,68,0)
+				font-weight blod
+		.pageToR
+			margin-left 6px
+			font-family iconfont
+			&:hover
+				color rgb(255,68,0)
+				font-weight blod
+.item
+	width 1190px
+	margin 10px auto
+	.product
+		float left
+		position relative 
+		width 222px
+		height 380px
+		margin 22px 20px 0 0
+		border #ededed 1px solid
+		&:nth-of-type(5),&:nth-of-type(10)
+			margin-right 0
+		&:hover
+			
+			border #fb6934 1px solid
+		.product-top
+			height 220px
+			overflow-y hidden
+			&:hover .product-note
+				transform translateY(-30px)
+			.product-img
+				height 220px
+				width 220px
+			.product-note
+				height 30px
+				width 220px
+				background-color rgba(255,68,0,.6)
+				position absolute
+				bottom 128px
+				transition 0.4s
+				span
+					float left
+					width 110px
+					line-height 30px
+					text-align center
+				.notel
+					border-right 1px #f66d27 solid
+					color rgba(255,255,255,.6)
+				.noter
+					color white
+		.product-body
+			width 100%
+			z-index 2
+			background-color white
+			position absolute
+			.product-price
+				.price
+					display block
+					float left
+					color #ff4400
+					font-weight 700
+					font-family verdana,arial
+					font-size 18px
+					margin 6px 0 0 10px
+				.mail
+					display block
+					float left
+					line-height 14px
+					color white
+					background-color #ff4400
+					padding 0 2px
+					margin 10px 0 0 4px
+			.text
+				display block
+				width 210px	
+				margin 0 auto
+			.sold
+				margin 5px 0 0 10px
+				font-size 14px
+				color gray
+			.customer-message
+				margin 0px 0 0 10px
+				font-size 16px
+				color #888888
+				.nameicon
+					float left
+					margin-top 7px
+					&:hover div
+						background-color #ff4400
+					&:hover a
+						color #ff4400
+					div
+						width 12px
+						height 2px
+						background-color gray
+						margin-top 2px
+				a
+					text-decoration underline
+					margin-left 5px
+					&:hover
+						color #ff4400
+				.customer-place
+					float right
+					margin 4px 12px 0 0 
+			.icon
+				margin 8px 0 0 10px
+
